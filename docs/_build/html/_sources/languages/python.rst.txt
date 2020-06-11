@@ -1,9 +1,0 @@
-Welcome to the Python documentation!
-=======================================
-
-Python formatter: `Black <https://black.readthedocs.io/en/stable/>`_
-
-Free Resources
-^^^^^^^^^^^^^
-| `realpython.com <realpython.com>`_: A plethora of Python tutorials covering pretty much any topic you can think of  
-| `Pycoder's Weekly <https://pycoders.com/>`_: A free, weekly e-mail newsletter for those interested in Python development
