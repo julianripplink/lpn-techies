@@ -3,15 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to LPN Techies's documentation!
+Welcome to LPN Techie docs!
 =======================================
 
 .. toctree::
    :maxdepth: 2
-   :glob:
-   :caption: Contents:
 
-   Language docs <languages>
+   Language Docs <languages>
+   Career Paths <careers>
 
 Indices and tables
 ==================

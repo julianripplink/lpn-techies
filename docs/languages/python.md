@@ -1,4 +1,4 @@
-# Welcome to the Python documentation!
+# Welcome to the Python 🐍 doc!
 
 ## Recommended Tools
 ### Integrated Development Environment (IDE)
