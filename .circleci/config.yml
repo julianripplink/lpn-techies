@@ -11,8 +11,22 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
+  docs-build:
+    executor: python/default
+    steps:
+      - checkout
+      - python/load-cache
+      - python/install-deps
+      - python/save-cache
+      - run:
+          name: Build docs
+          command: cd docs/ && make html
+      - persist_to_workspace:
+          root: docs/_build
+          paths: html
 
 workflows:
   main:
     jobs:
       - build
+      - docs-build
